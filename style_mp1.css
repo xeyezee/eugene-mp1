@@ -1,0 +1,26 @@
+body {
+  margin: 2px;
+  font-family: Tahoma;
+  background: fixed;
+  background-color: rgb(253, 190, 190);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+#nav-list {
+  background: fixed;
+  background-color: rgb(245, 170, 72);
+}
+#nav-item {
+  display: inline;
+  color: black;
+}
+p {
+  color: rgb(88, 79, 79);
+}
+h2 {
+  text: bold;
+}
