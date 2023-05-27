@@ -13,6 +13,7 @@ body {
 #nav-list {
   background: fixed;
   background-color: rgb(245, 170, 72);
+  navbar: fixed;
 }
 #nav-item {
   display: inline;
