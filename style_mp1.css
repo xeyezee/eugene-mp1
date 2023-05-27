@@ -13,15 +13,24 @@ body {
 #nav-list {
   background: fixed;
   background-color: rgb(245, 170, 72);
-  navbar: fixed;
+  background: fixed;
 }
 #nav-item {
   display: inline;
   color: black;
+  background: fixed;
+}
+ul li a:hover {
+  background-color: aqua;
+  color: azure;
 }
 p {
-  color: rgb(88, 79, 79);
+  color: red;
 }
 h2 {
+  text: bold;
+}
+h5 {
+  color: black;
   text: bold;
 }
