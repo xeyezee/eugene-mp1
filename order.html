@@ -12,11 +12,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="icon" type="image/x-icon" href="cow_logo.jpg" />
-    <title>Eugene's mp1</title>
+    <title>Order Now!</title>
   </head>
-  <body>
+  <body id="body2">
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
-        <div class="container-fluid" style="background-color: lightgrey;">
+        <div class="container-fluid" style="background-color: lightgrey;background-image: url(homeback.jpg); padding: 10px;">
           <a class="navbar" href="home.html"
             ><img
               src="cow_logo.jpg"
@@ -52,14 +52,164 @@
               <a class="nav-link" href="contact.html"><b>Contact Us</b></a>
             </li>
             </ul>
-            <form>
-               <button class="control-form me-2"
-               type="button"
-               style="background-color: rgb(63, 63, 245);"
-              >
-            <a class="nav-link" href="signreg.html"></a> <b> Sign In/Register </b> </a>
-               </button>
-              </form>
+            <button  class="control-form me-2"
+            type="button"
+        style="background-color: rgb(63, 63, 245);">
+             <div class="nav-item"
+           >
+          <a class="nav-link" href="signreg.html"> <b> Sign In/Register </b> </a>
+      </div>
+      </button>
               </div>
               </div>
             </nav>
+            <div class="col-lg-12 offset-1 mt-5">
+              <h1>Orders</h1>
+            </div>
+            <div class="row mt-5">
+
+            <div class="col-lg-2 offset-lg-1">
+              <div class="card text-center">
+                <img src="pares.jpg" class="img-fluid rounded-start" alt="pares"style="height: 150px;" />
+                <div class="card-body">
+                  <h5 class="card-title"><b>Beef pares</b></h5>
+                 <input type="checkbox" />
+                 <input type="number" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="card text-center">
+                  <img src="tapsilog.jpg" class="img-fluid rounded-start;" alt="tapsilog" style="height: 150px;" />
+                  <div class="card-body">
+                    <h5 class="card-title"><b>Tapsilog</b></h5>
+                   <input type="checkbox" />
+                   <input type="number"/>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="card text-center">
+                    <img src="porksilog.jpg" class="img-fluid rounded-start" alt="porksilog"style="height: 150px;" />
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Porksilog</b></h5>
+                     <input type="checkbox" />
+                     <input type="number"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2">
+                    <div class="card text-center">
+                      <img src="chicksilog.jpg" class="img-fluid rounded-start" alt="chicksilog"style="height: 150px;" />
+                      <div class="card-body">
+                        <h5 class="card-title"><b>Chicksilog</b></h5>
+                       <input type="checkbox" />
+                       <input type="number"/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2">
+                      <div class="card text-center">
+                        <img src="bangsilog.jpg" class="img-fluid rounded-start" alt="bangsilog" style="height: 150px;"/>
+                        <div class="card-body">
+                          <h5 class="card-title"><b>Bangsilog</b></h5>
+                         <input type="checkbox" />
+                         <input type="number"/>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                      <div class="row mt-5">
+                        <div class="col-lg-2 offset-lg-2">
+                          <div class="card text-center">
+                            <img src="cornsilog.jpg" class="img-fluid rounded-start" alt="pares"style="height: 150px;" />
+                            <div class="card-body">
+                              <h5 class="card-title"><b>Cornsilog</b></h5>
+                             <input type="checkbox" />
+                             <input type="number" />
+                              </div>
+                            </div>
+                          </div> <div class="col-lg-2 ">
+                            <div class="card text-center">
+                              <img src="longsilog.jpg" class="img-fluid rounded-start" alt="pares"style="height: 150px;" />
+                              <div class="card-body">
+                                <h5 class="card-title"><b>Longsilog</b></h5>
+                               <input type="checkbox" />
+                               <input type="number" />
+                                </div>
+                              </div>
+                            </div> <div class="col-lg-2 ">
+                              <div class="card text-center">
+                                <img src="hamsilog.jpg" class="img-fluid rounded-start" alt="pares"style="height: 150px;" />
+                                <div class="card-body">
+                                  <h5 class="card-title"><b>Hamsilog</b></h5>
+                                 <input type="checkbox" />
+                                 <input type="number" />
+                                  </div>
+                                </div>
+                              </div> <div class="col-lg-2">
+                                <div class="card text-center">
+                                  <img src="hotsilog.jpg" class="img-fluid rounded-start" alt="pares"style="height: 150px;" />
+                                  <div class="card-body">
+                                    <h5 class="card-title"><b>Hotsilog</b></h5>
+                                   <input type="checkbox" />
+                                   <input type="number" />
+                                    </div>
+                                  </div>
+                                </div>
+                      </div>
+                      <div class="col-lg-12 offset-lg-1 mt-5">
+                        <h1>Add On's</h1>
+                     </div>
+                      <div class="col-lg-12 offset-1">
+                        <h5 id="add"><b>Rice</b></h5>
+                        <input type="checkbox">
+                        <input type="number">
+                      </div>
+                      <div class="col-lg-12 offset-1">
+                        <h5 id="add"><b>Egg</b></h5>
+                        <input type="checkbox">
+                        <input type="number">
+                      </div>
+                      <div class="col-lg-12 offset-1">
+                        <h5 id="add"><b>Condiments</b></h5>
+                        <input type="checkbox">
+                        <input type="number">
+                      </div>
+                      <div class="col-lg-12 offset-1">
+                        <h5 id="add"><b>Soup</b></h5>
+                        <input type="checkbox">
+                        <input type="number">
+                      </div>
+                      
+                      <footer>
+                        <div class="container-fluid">
+                          <div class="row text-center mt-5">
+                            <div class="col-lg-12">
+                              <h2>Follow us on!</h2>
+                            </div>
+                          </div>
+                          <div class="row mn-5">
+                            <div class="col-lg-12 text-center">
+                              <img src="facebook.jpg" style="width: 50px" />
+                              <img src="instagram.jpg" style="width: 50px" />
+                              <img src="twitter.jpg" style="width: 50px" />
+                              <img src="youtube.jpg" style="width: 50px" />
+                            </div>
+                          </div>
+                          <div class="row text-center mt-5">
+                            <div class="col-lg-12">
+                              <h2>In Partnership with:</h2>
+                              </div>
+                              </div>
+                              <div class="row mn-5">
+                              <div class="col-lg-12 text-center">
+                                <img src="grablogo.png" style="width: 100px; height: px"  />
+                                <img src="pandalogo.png"  style="width: 100px" />
+                              </div>
+                            </div>
+                  </div>
+                  </footer>
+            </div>
+            </body>
+            </html>

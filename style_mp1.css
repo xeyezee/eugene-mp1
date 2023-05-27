@@ -3,9 +3,11 @@ body {
   font-family: Tahoma;
   background: fixed;
   background-color: rgb(240, 206, 211);
+  padding: 10px;
 }
 #body1 {
   background-image: url(foodback.jpg);
+  padding: 10px;
 }
 .center {
   display: flex;
@@ -44,4 +46,18 @@ h5 {
   color: black;
   background-image: url(homeback.jpg);
   padding: 2;
+}
+input {
+  width: 50px;
+}
+tr,
+td {
+  background-color: antiquewhite;
+}
+#add {
+  color: rgb(14, 2, 2);
+}
+#body2 {
+  background-image: url();
+  padding: 10px;
 }
