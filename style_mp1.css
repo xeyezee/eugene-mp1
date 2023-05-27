@@ -2,9 +2,11 @@ body {
   margin: 2px;
   font-family: Tahoma;
   background: fixed;
-  background-color: rgb(253, 190, 190);
+  background-color: rgb(240, 206, 211);
 }
-
+#body1 {
+  background-image: url(foodback.jpg);
+}
 .center {
   display: flex;
   justify-content: center;
@@ -33,4 +35,13 @@ h2 {
 h5 {
   color: black;
   text: bold;
+}
+#go:hover {
+  color: aqua;
+}
+#best {
+  padding: 10px;
+  color: black;
+  background-image: url(homeback.jpg);
+  padding: 2;
 }
