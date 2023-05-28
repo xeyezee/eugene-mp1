@@ -9,6 +9,7 @@ body {
   background-image: url(foodback.jpg);
   padding: 10px;
 }
+
 .center {
   display: flex;
   justify-content: center;
@@ -58,6 +59,13 @@ td {
   color: rgb(14, 2, 2);
 }
 #body2 {
-  background-image: url();
+  background-image: url(orderback.jpg);
   padding: 10px;
+}
+
+#check:hover {
+  color: aqua;
+}
+#body3 {
+  background-image: url(aboutback.jpg);
 }
