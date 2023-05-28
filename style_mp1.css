@@ -2,7 +2,7 @@ body {
   margin: 2px;
   font-family: Tahoma;
   background: fixed;
-  background-color: rgb(240, 206, 211);
+  background-color: rgb(211, 219, 246);
   padding: 10px;
 }
 #body1 {
@@ -30,7 +30,7 @@ ul li a:hover {
   color: azure;
 }
 p {
-  color: red;
+  color: rgb(98, 84, 188);
 }
 h2 {
   text: bold;
@@ -45,7 +45,7 @@ h5 {
 #best {
   padding: 10px;
   color: black;
-  background-image: url(homeback.jpg);
+  background-image: url(best.jpg);
   padding: 2;
 }
 input {
@@ -68,4 +68,36 @@ td {
 }
 #body3 {
   background-image: url(aboutback.jpg);
+}
+#email {
+  width: 300px;
+}
+#password {
+  width: 300px;
+}
+#login {
+  width: 150;
+  background-color: rgb(70, 159, 249);
+  width: 200px;
+  text-align: center;
+  color: white;
+}
+#fb {
+  color: rgb(70, 159, 249);
+}
+#first_name {
+  width: 200px;
+}
+#last_name {
+  width: 200px;
+}
+#con_password {
+  width: 300px;
+}
+#date {
+  width: 150px;
+}
+#submit {
+  width: 100px;
+  background-color: rgb(70, 159, 249);
 }
