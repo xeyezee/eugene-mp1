@@ -69,6 +69,15 @@ td {
 #body3 {
   background-image: url(aboutback.jpg);
 }
+#body4 {
+  background-image: url(contactback.jpg);
+}
+#body5 {
+  background-image: url(Signback.jpg);
+}
+#body6 {
+  background-image: url(Signback.jpg);
+}
 #email {
   width: 300px;
 }
